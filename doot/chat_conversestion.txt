@@ -1,0 +1,317 @@
+   <li class="chat-list left" id="">
+                <div class="conversation-list">
+                  <div class="chat-avatar">
+                    <img src="assets/img/akshay.webp">
+                  </div>
+                  <div class="user-chat-content">
+                    <div class="ctext-wrap">
+                      <div class="ctext-wrap-content" id="1">
+                        <p class="mb-0 ctext-content">Good morning </p>
+                      </div>
+                      <div class="nav-items dropdown align-self-start message-box-drop">
+                        <a class="toggle-message-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="bx bx-dots-vertical-rounded"></i>
+                        </a>
+                        <div class="dropdown-menu" data-popper-placement="bottom-end">
+                          <!-- reply massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between reply-message"
+                            id="reply-message-1">Reply
+                            <i class="bx bx-share ms-2 text-muted"></i>
+                          </a>
+                          <!-- forword massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between"
+                            data-bs-toggle="modal" data-bs-target=".forwardModal">Forward
+                            <i class="bx bx-share-alt ms-2 text-muted"></i>
+                          </a>
+                          <!-- copy massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between copy-message"
+                            id="copy-message-0">Copy
+                            <i class="bx bx-copy text-muted ms-2"></i>
+                          </a>
+
+                          <!-- bookmark massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between">Bookmark
+                            <i class="bx bx-bookmarks text-muted ms-2"></i>
+                          </a>
+
+                          <!-- mark as unread  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between">Mark
+                            as Unread
+                            <i class="bx bx-message-error text-muted ms-2"></i>
+                          </a>
+
+                          <!-- delete massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between delete-item">Delete
+                            <i class="bx bx-trash text-muted ms-2"></i>
+                          </a>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="conversation-name">
+                      <small class="text-muted time">10:14 AM</small>
+                      <span class="text-success check-message-icon"><i class="bx bx-check-double"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="chat-list right" id="">
+                <div class="conversation-list">
+                  <div class="user-chat-content">
+                    <div class="ctext-wrap">
+                      <div class="ctext-wrap-content" id="2">
+                        <p class="mb-0 ctext-content">Good night </p>
+                      </div>
+                      <div class="nav-items dropdown align-self-start message-box-drop">
+                        <a class="toggle-message-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                          id="sdf">
+                          <i class="bx bx-dots-vertical-rounded"></i>
+                        </a>
+                        <div class="dropdown-menu" data-popper-placement="bottom-start">
+                          <!-- reply massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between reply-message"
+                            id="reply-message-2" data-bs-show="collapse" data-bs-target=".replyCard">Reply
+                            <i class="bx bx-share ms-2 text-muted"></i>
+                          </a>
+                          <!-- forword massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between"
+                            data-bs-toggle="modal" data-bs-target=".forwardModal">Forward
+                            <i class="bx bx-share-alt ms-2 text-muted"></i>
+                          </a>
+                          <!-- copy massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between copy-message"
+                            id="copy-message-0">Copy
+                            <i class="bx bx-copy text-muted ms-2"></i>
+                          </a>
+
+                          <!-- bookmark massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between">Bookmark
+                            <i class="bx bx-bookmarks text-muted ms-2"></i>
+                          </a>
+
+                          <!-- mark as unread  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between">Mark
+                            as Unread
+                            <i class="bx bx-message-error text-muted ms-2"></i>
+                          </a>
+
+                          <!-- delete massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between delete-item">Delete
+                            <i class="bx bx-trash text-muted ms-2"></i></a>
+
+
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="conversation-name">
+                      <small class="text-muted time">10:14 AM</small>
+                      <span class="text-success check-message-icon">
+                        <i class="bx bx-check-double"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="chat-list right" id="">
+                <div class="conversation-list">
+                  <div class="user-chat-content">
+                    <div class="ctext-wrap">
+                      <div class="ctext-wrap-content">
+                        <div class="attached-file-list p-2 d-flex">
+                          <div class="attached-file-details flex-shrink-0 me-3 ms-1">
+                            <div class="attached-file-avatar rounded-circle ">
+                              <i class="bx bx-paperclip rotate"></i>
+                            </div>
+                          </div>
+                          <div class="flex-grow-1 d-flex overflow-hidden">
+                            <h5 class="text-truncate mb-1">
+                              design-phase-1-approved.pdf kljildkjweiopjqeioprpj
+                            </h5>
+                            <p class="mb-0">12.5 MB</p>
+                          </div>
+                          <div class="attached-icon ms-3 flex-shrink-0">
+                            <a class="px-1"><i class="bx bxs-download"></i></a>
+                          </div>
+                        </div>
+                        <p class="mb-0 ctext-content"></p>
+                      </div>
+                      <div class="nav-items dropdown align-self-start message-box-drop">
+                        <a class="toggle-message-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                          id="sdf">
+                          <i class="bx bx-dots-vertical-rounded"></i>
+                        </a>
+                        <div class="dropdown-menu" data-popper-placement="bottom-start">
+                          <!-- reply massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between reply-message"
+                            id="reply-message-2" data-bs-show="collapse" data-bs-target=".replyCard">Reply
+                            <i class="bx bx-share ms-2 text-muted"></i>
+                          </a>
+                          <!-- forword massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between"
+                            data-bs-toggle="modal" data-bs-target=".forwardModal">Forward
+                            <i class="bx bx-share-alt ms-2 text-muted"></i>
+                          </a>
+                          <!-- download massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between copy-message"
+                            id="copy-message-0">Download
+                            <i class="bx bx-download text-muted ms-2"></i>
+                          </a>
+
+                          <!-- bookmark massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between">Bookmark
+                            <i class="bx bx-bookmarks text-muted ms-2"></i>
+                          </a>
+
+                          <!-- delete massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between delete-item">Delete
+                            <i class="bx bx-trash text-muted ms-2"></i></a>
+
+
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="conversation-name">
+                      <small class="text-muted time">10:14 AM</small>
+                      <span class="text-success check-message-icon">
+                        <i class="bx bx-check-double"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="chat-list right" id="">
+                <div class="conversation-list">
+                  <div class="user-chat-content">
+                    <div class="ctext-wrap">
+                      <div class="ctext-wrap-content">
+                        <div class="attached-file-list p-2 d-flex">
+                          <div class="attached-file-details flex-shrink-0 me-3 ms-1">
+                            <div class="attached-file-avatar rounded-circle ">
+                              <i class="bx bx-headphone"></i>
+                            </div>
+                          </div>
+                          <div class="flex-grow-1 d-flex overflow-hidden">
+                            <h5 class="text-truncate mb-1">
+                              design-phase-1-approved.pdf
+                            </h5>
+                            <p class="mb-0">12.5 MB</p>
+                          </div>
+                          <div class="attached-icon ms-3 flex-shrink-0">
+                            <a class="px-1"><i class="bx bxs-download"></i></a>
+                          </div>
+                        </div>
+                        <p class="mb-0 ctext-content"></p>
+                      </div>
+                      <div class="nav-items dropdown align-self-start message-box-drop">
+                        <a class="toggle-message-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                          id="sdf">
+                          <i class="bx bx-dots-vertical-rounded"></i>
+                        </a>
+                        <div class="dropdown-menu" data-popper-placement="bottom-start">
+                          <!-- reply massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between reply-message"
+                            id="reply-message-2" data-bs-show="collapse" data-bs-target=".replyCard">Reply
+                            <i class="bx bx-share ms-2 text-muted"></i>
+                          </a>
+                          <!-- forword massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between"
+                            data-bs-toggle="modal" data-bs-target=".forwardModal">Forward
+                            <i class="bx bx-share-alt ms-2 text-muted"></i>
+                          </a>
+                          <!-- download massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between copy-message"
+                            id="copy-message-0">Download
+                            <i class="bx bx-download text-muted ms-2"></i>
+                          </a>
+
+                          <!-- bookmark massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between">Bookmark
+                            <i class="bx bx-bookmarks text-muted ms-2"></i>
+                          </a>
+
+                          <!-- delete massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between delete-item">Delete
+                            <i class="bx bx-trash text-muted ms-2"></i></a>
+
+
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="conversation-name">
+                      <small class="text-muted time">10:14 AM</small>
+                      <span class="text-success check-message-icon">
+                        <i class="bx bx-check-double"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="chat-list right" id="">
+                <div class="conversation-list">
+                  <div class="user-chat-content">
+                    <div class="ctext-wrap">
+                      <div class="ctext-wrap-content">
+                        <div class="attached-file-list p-2 d-flex">
+                          <div class="attached-file-details flex-shrink-0 me-3 ms-1">
+                            <div class="attached-file-avatar rounded-circle ">
+                              <i class="bx bx-headphone"></i>
+                            </div>
+                          </div>
+                          <div class="flex-grow-1 d-flex overflow-hidden">
+                            <h5 class="text-truncate mb-1">
+                              design-phase-1-approved.pdf
+                            </h5>
+                            <p class="mb-0">12.5 MB</p>
+                          </div>
+                          <div class="attached-icon ms-3 flex-shrink-0">
+                            <a class="px-1"><i class="bx bxs-download"></i></a>
+                          </div>
+                        </div>
+
+                        <p class="mb-0 ctext-content"></p>
+                      </div>
+                      <div class="nav-items dropdown align-self-start message-box-drop">
+                        <a class="toggle-message-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                          id="sdf">
+                          <i class="bx bx-dots-vertical-rounded"></i>
+                        </a>
+                        <div class="dropdown-menu" data-popper-placement="bottom-start">
+                          <!-- reply massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between reply-message"
+                            id="reply-message-2" data-bs-show="collapse" data-bs-target=".replyCard">Reply
+                            <i class="bx bx-share ms-2 text-muted"></i>
+                          </a>
+                          <!-- forword massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between"
+                            data-bs-toggle="modal" data-bs-target=".forwardModal">Forward
+                            <i class="bx bx-share-alt ms-2 text-muted"></i>
+                          </a>
+                          <!-- download massage -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between copy-message"
+                            id="copy-message-0">Download
+                            <i class="bx bx-download text-muted ms-2"></i>
+                          </a>
+
+                          <!-- bookmark massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between">Bookmark
+                            <i class="bx bx-bookmarks text-muted ms-2"></i>
+                          </a>
+
+                          <!-- delete massage  -->
+                          <a class="dropdown-item d-flex align-items-center justify-content-between delete-item">Delete
+                            <i class="bx bx-trash text-muted ms-2"></i></a>
+
+
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="conversation-name">
+                      <small class="text-muted time">10:14 AM</small>
+                      <span class="text-success check-message-icon">
+                        <i class="bx bx-check-double"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </li>

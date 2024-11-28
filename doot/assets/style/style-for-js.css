@@ -1,0 +1,87 @@
+/* style for using js */
+
+.nav-items.active .nav-links {
+  color: var(--bg-theme);
+}
+
+.first-navtab .nav-items.active .nav-links::before {
+  background-color: var(--bg-theme);
+}
+
+.menu-part-details {
+  display: none;
+}
+.menu-part-details.active {
+  display: block;
+}
+
+/* chat section */
+.chat-user-img.online .user-status {
+  background-color: #06d6a0 ;
+}
+.chat-user-img.away .user-status {
+  background-color: #f9c345;
+}
+.chat-user-img.dnd .user-status {
+  background-color: #fa2f2fed;
+}
+/* profile sidebar */
+.chat-user-img.online .user-profile-status {
+  color: #06d6a0 ;
+}
+.chat-user-img.away .user-profile-status {
+  color: #f9c345;
+}
+.chat-user-img.dnd .user-profile-status {
+  color: #fa2f2fed;
+}
+/* profile sidebar end */
+
+/* chat profile status */
+.chat-user-img .user-status#online {
+  background-color: #06d6a0;
+}
+.chat-user-img .user-status#away  {
+  background-color: #f9c345;
+}
+.chat-user-img .user-status#dnd  {
+  background-color: #fa2f2fed;
+}
+
+/* chat profile status end*/
+
+
+.chat-list li.active a {
+  background-color: var(--bg-theme);
+  color: #fff;
+}
+.unread-msg-user {
+  font-weight: 600 !important;
+}
+.chat-list li.active .badge {
+  background-color: #f6f6f940 !important;
+  color: #fff !important;
+}
+.file_Upload.show, .replyCard.show {
+  transform: translateY(-92px);
+  opacity: 1;
+
+}
+
+.favourite-btn.active span i{
+color: #ca0943 !important;
+}
+
+/* settings */
+.pr-active {
+  color:#06d6a0;
+  font-size: 12px !important;
+}
+.pr-away {
+  color: #f9c345;
+  font-size: 12px !important;
+}
+.pr-dnd {
+  color: #fa2f2fed;
+  font-size: 12px !important;
+}
